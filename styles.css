@@ -111,6 +111,7 @@ div img{
     margin: 10px 250px;
     gap: 35px;
     font-size: 18px;
+    margin-bottom:100px;
 }
 
 .body-list li{
@@ -129,6 +130,7 @@ div img{
     justify-content: center;
     align-items: center;
     padding: 100px 225px;
+    
     color:#1f2937;
     
 }
