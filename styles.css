@@ -121,3 +121,28 @@ div img{
 
 
 }
+
+.body-quote{
+    background-color:#e5e7eb ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 225px;
+    color:#1f2937;
+    
+}
+
+.quote-main{
+    font-style:italic;
+    font-weight: normal;
+    font-size: 36px; 
+}
+
+.quote-name{
+    font-weight:bolder;
+    font-size: 18px; 
+    align-self: flex-end;
+    margin-right: 10px;
+
+}
