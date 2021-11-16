@@ -36,7 +36,7 @@ ul {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    gap:8px
+    gap:5px
 }
 .header-main-text {
     color:#f9faf8;
