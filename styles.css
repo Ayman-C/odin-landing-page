@@ -120,8 +120,11 @@ div img{
     align-self: baseline;
     width: 150px;
     flex-shrink:0;
+    
+}
 
-
+li a{
+    text-decoration: none;
 }
 
 .body-quote{
