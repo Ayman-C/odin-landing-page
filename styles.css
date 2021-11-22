@@ -1,8 +1,12 @@
 body{margin:0;
     font-family: Arial, Helvetica, sans-serif;
-    height:100vh;
+    /* height:100vh; */
 }
-header, .header-secondary-text , .footer{
+
+
+/************Header section****************/
+/************Includes attributes that impacts other part of website e.g. footer and button****************/
+header, .header-secondary-text , footer{
     background-color: #1f2937;
     color:#e5e7eb;
     font-size: 18px;
@@ -38,10 +42,14 @@ ul {
     flex-wrap: wrap;
     gap:5px
 }
-.header-main-text {
+h1{
     color:#f9faf8;
     font-size: 48px;
     font-weight:900;    
+    margin:0px;
+}
+p{
+    margin:0px;
 }
 button, .button-2{
     flex-grow: 0;
@@ -63,9 +71,17 @@ button, .button-2{
    
 }
 
-/*********************************************/
+.header-image{
 
-h1{
+    border-style: none;
+    width:350px;
+    text-align: center;
+    align-self: center;
+    
+}
+/*******************body section**************************/
+
+h2{
     color:#1f2937;
     font-weight: 900;
     font-style: 36px;
@@ -90,7 +106,7 @@ h1{
 .body-images{
     display: flex;
     justify-content: space-around;
-    margin: 0px 250px;
+    margin: 0px auto;
     gap: 35px;
 
 }
@@ -107,12 +123,11 @@ div img{
 
 .body-list{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding: 0;
-    margin: 10px 250px;
+    margin: 10px 0  100px 0;
     gap: 35px;
     font-size: 18px;
-    margin-bottom:100px;
 }
 
 .body-list li{
@@ -142,6 +157,7 @@ li a{
     font-style:italic;
     font-weight: normal;
     font-size: 36px; 
+    margin:0px;
 }
 
 .quote-name{
@@ -150,6 +166,9 @@ li a{
     align-self: flex-end;
     margin-right: 10px;
 }
+
+
+/*************Call to action section*****************/
 
 .body-call-to-action{
     display: flex;
@@ -163,10 +182,11 @@ li a{
     
 }
 
-.action-1{
+h3{
     color: #e5e7eb;
     font-size: 24px;
     font-weight: bold;
+    margin:0px;
 }
 
 .action-2{
@@ -180,7 +200,10 @@ li a{
    
 }
 
-.footer{
+
+
+/*************Footer section*****************/
+footer{
     display: flex;
     justify-content: center;
     align-items: center;
